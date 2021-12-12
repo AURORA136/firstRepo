@@ -7,7 +7,7 @@ let BankAcc = function (name, balance) {
         console.log("your current balance is" + newBalance)
 
         this.balance = newBalance ;
-        console.log(BankAcc);
+        console.log(this);
     };
 
     this.withdraw = function (withdrawAmount) {
@@ -20,7 +20,7 @@ let BankAcc = function (name, balance) {
         }
 
         this.balance = newBalance ;
-        console.log(BankAcc;
+        console.log(this);
     };
 
 };
